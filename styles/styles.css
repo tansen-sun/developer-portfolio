@@ -80,8 +80,9 @@ p{
 
 /* main section styles*/
 
-.about{
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 /* about me */
@@ -103,4 +104,17 @@ p{
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+
+}
+.info-description{
+
 }
