@@ -150,7 +150,7 @@ main section{
     gap: 50px;
 }
 .resume-column-title{
-    color: #474747);
+    color: #474747;
     font-size: 30px;
     font-weight: 700;
     
@@ -179,10 +179,30 @@ main section{
 /* footer style */
 footer{
     display: flex;
+    gap: 100px;
     background: #FFF8F3;
     padding: 130px 200px;
     margin-top: 100px;
 }
-.section-title{
-    
+.footer-column{
+    width: 50%;
 }
+.social-links a{
+        margin-right: 25px;
+    }
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    background: #FFF;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+    }
+
+    
+    
